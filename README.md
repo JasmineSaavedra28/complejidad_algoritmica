@@ -33,18 +33,16 @@ El programa mostrará un menú interactivo. Respuestas rápidas de ejemplo:
 
 **Consigna (respuestas Big O)**
 
-- **Código 1 (Bucle simple):** O(N). Un único bucle que itera de 0 a N; operación interna constante.
-- **Código 2 (Dos bucles secuenciales):** O(N). Dos bucles uno tras otro: O(N) + O(N) = O(2N) → O(N).
-- **Código 3 (Bucles anidados - j desde i hasta N):** O(N^2). El interno depende del externo, produce cuadrática.
-- **Código 4 (Anidados con dos entradas A y B):** O(N·M). Complejidad proporcional a length(A) × length(B).
-- **Código 5 (Bucle con multiplicación i *= 2):** O(log N). La variable se duplica cada iteración.
-- **Código 6 (Bucle externo O(N) y bucle interno O(log N)):** O(N log N). Producto de ambas componentes.
-- **Código 7 (Condicional con valor fijo N=1000):** O(1). Tiempo constante, no depende de la entrada del usuario.
+- **Código 1 (Bucle simple):** `O(N)`. Un único bucle que itera de 0 a N; operación interna constante.
+- **Código 2 (Dos bucles secuenciales):** `O(N)`. Dos bucles uno tras otro: `O(N) + O(N) = O(2N)` → `O(N)`.
+- **Código 3 (Bucles anidados - j desde i hasta N):** `O(N^2)`. El interno depende del externo, produce cuadrática.
+- **Código 4 (Anidados con dos entradas A y B):** `O(N·M)`. Complejidad proporcional a `length(A) × length(B)`.
+- **Código 5 (Bucle con multiplicación `i = i * 2` / `i *= 2`):** `O(log N)`. La variable se duplica cada iteración.
+- **Código 6 (Bucle externo `O(N)` y bucle interno `O(log N)`):** `O(N log N)`. Producto de ambas componentes.
+- **Código 7 (Condicional con valor fijo `N = 1000`):** `O(1)`. Tiempo constante, no depende de la entrada del usuario.
 
-**Cambios clave**
+**Cambios clave*
 
- **Ajustes teóricos aplicados en el código**:
-	
-    - En **Ejercicio 3** el bucle interno inicia en `j = i`, generando la progresión N + (N-1) + ... + 1 → O(N^2).
-
-	- En **Ejercicio 7** se fija `N = 1000` dentro de la función para que el tiempo sea constante O(1).
+1. **Ajustes teóricos aplicados en el código**:
+   - En **Ejercicio 3** el bucle interno inicia en `j = i`, generando la progresión `N + (N-1) + ... + 1` → `O(N^2)`.
+   - En **Ejercicio 7** se fija `N = 1000` dentro de la función para que el tiempo sea constante `O(1)`.
