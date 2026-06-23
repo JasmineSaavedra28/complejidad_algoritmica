@@ -41,7 +41,7 @@ El programa mostrará un menú interactivo. Respuestas rápidas de ejemplo:
 - **Código 6 (Bucle externo `O(N)` y bucle interno `O(log N)`):** `O(N log N)`. Producto de ambas componentes.
 - **Código 7 (Condicional con valor fijo `N = 1000`):** `O(1)`. Tiempo constante, no depende de la entrada del usuario.
 
-**Cambios clave*
+**Cambios clave**
 
 1. **Ajustes teóricos aplicados en el código**:
    - En Ejercicio 3 el bucle interno inicia en `j = i`, generando la progresión `N + (N-1) + ... + 1` → `O(N^2)`.
