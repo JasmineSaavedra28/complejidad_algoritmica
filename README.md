@@ -44,5 +44,7 @@ El programa mostrará un menú interactivo. Respuestas rápidas de ejemplo:
 **Cambios clave**
 
  **Ajustes teóricos aplicados en el código**:
-	- En **Ejercicio 3** el bucle interno inicia en `j = i`, generando la progresión N + (N-1) + ... + 1 → O(N^2).
+	
+    - En **Ejercicio 3** el bucle interno inicia en `j = i`, generando la progresión N + (N-1) + ... + 1 → O(N^2).
+
 	- En **Ejercicio 7** se fija `N = 1000` dentro de la función para que el tiempo sea constante O(1).
